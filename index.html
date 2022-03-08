@@ -7,16 +7,53 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Colors</title>
+  <title>Talk to the Web page</title>
 </head>
 <body>
   <div class="container">
-    <h1>What's your favorite color?</h1>
-    <p>Click a button to choose what color you'd like this page to be:</p>
+    <h1>Talk to the web page</h1>
+    <p>Click a button to say something to the web page. See what it says back!</p>
 
-    <button class="btn btn-success" id="green">Green</button>
-    <button class="btn btn-warning" id="yellow">Yellow</button>
-    <button class="btn btn-danger" id="red">Red</button>  
+    <button class="btn btn-primary" id="hello">Say "hello"</button>
+    <button class="btn btn-inverse" id="goodbye">Say "goodbye"</button>
+    <button class="btn btn-danger" id="stop">Say "stop copying me!"</button> 
+    
+    <div class="row">
+      <div class="col-md-6">
+        <h2>You said:</h2>
+        <ul id="user">
+
+          </ul>
+          </div>
+          <div class="col-md-6">
+            <h2>The Web page said back:</h2>
+            <ul id="webpage">
+
+              </ul>
+              </div>
+              </div>
+              </div>
+  </div>
+
+  <div class="container">
+    <h2>cat vs dog</h2>
+    <p>Click a button to for the animals to make sound</p>
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Cat</h3>
+        <ul >
+        <img src="img/cat.jpg">
+          <button class="btn btn-primary" id="cat">"meow"</button>
+        </ul>
+    </div>
+    <div class="col-md-6">
+      <h4>Dog</h4>
+      <ul>
+      <img src="img/dog.jpg">
+        <button class="btn btn-dark" id="dog">"bark"</button>
+    </ul>
+    </div>
+  </div>
   </div>
   </body>
 </html>
