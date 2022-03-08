@@ -1,9 +1,9 @@
-jquery('h1').click(function(){
+jQuery('h1').click(function(){
   alert("This is a heading tag")
 });
-jquery('P').click(function(){
+jQuery('P').click(function(){
   alert("This is paragraph")
 });
-jquery('img').click(function(){
+jQuery('img').click(function(){
   alert("This is an image")
 });
